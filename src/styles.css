@@ -1,0 +1,45 @@
+html,
+body {
+    margin: 0;
+    width: 100%;
+    font-size: 20px;
+}
+
+nav {
+    height: 8vh;
+    margin: 1rem 1rem;
+}
+
+main {
+    display: flex;
+}
+
+#content,
+main {
+    margin: 1rem 1rem 0;
+}
+
+#content {
+    padding: 1rem 0;
+    white-space: nowrap;
+    width: 100%;
+    display: table;
+    margin: 0 10rem;
+}
+
+#content>div {
+    vertical-align: middle;
+    display: table-cell;
+    padding: 0 13px;
+    position: relative;
+}
+
+#content img {
+    width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
+}
+
+#content embed {
+    height: 80vh;
+}

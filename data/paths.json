@@ -1,0 +1,50 @@
+const paths = {
+    oneImage: {
+        name: "One Image Example",
+        items: [
+            "./data/frames/1.jpg",
+        ]
+    },
+    twoImage: {
+        name: "Two Image Example",
+        items: [
+            "./data/frames/1.jpg",
+            "./data/frames/2.jpg",
+        ]
+    },
+    threeImage: {
+        name: "Three Image Example",
+        items: [
+            "./data/frames/1.jpg",
+            "./data/frames/2.jpg",
+            "./data/frames/848-200x200.jpg"
+        ]
+    },
+    onePdf: {
+        name: "One PDF Example",
+        items: [
+            "./data/pdfs/sample.pdf"
+        ]
+    },
+    twoPdfs: {
+        name: "Two PDF Example",
+        items: [
+            "./data/pdfs/sample.pdf",
+            "./data/pdfs/sample.pdf"
+        ]
+    },
+    threePdfs: {
+        name: "Three PDF Example",
+        items: [
+            "./data/pdfs/sample.pdf",
+            "./data/pdfs/sample.pdf",
+            "./data/pdfs/sample.pdf"
+        ]
+    },
+    multiSitePdf: {
+        name: "Multi PDF Example",
+        items: [
+            "./data/pdfs/multisite.pdf"
+        ]
+    },
+};
